@@ -1,26 +1,17 @@
-# Assessing the Impact of Public Policies on Vehicle Theft Incidence in Natal
+## For Reviewers
 
-This repository contains the supplementary material, source code, and reproducibility information for the manuscript:
+This repository was organized to provide full reproducibility of the analyses reported in the manuscript.
 
-**Assessing the Impact of Public Policies on Vehicle Theft Incidence in Natal: A Spatial-Temporal Model Using Non-Homogeneous Poisson Processes**
+The repository contains:
 
-## Repository contents
+- Supplementary material describing the methodology and data;
+- Source code used to generate the analyses;
+- Instructions for data access through the STPoissonSS package;
+- Links to archived MCMC outputs;
+- Information required to reproduce tables and figures presented in the manuscript.
 
-This repository includes:
+The files included in this repository correspond to the version of the manuscript submitted for peer review.
 
-- Supplementary material for the manuscript;
-- R code used to reproduce the analyses;
-- Instructions for loading the data;
-- Instructions for reproducing the main tables and figures;
-- Links to archived MCMC outputs used in the analysis.
+The file `reproducibility_code.R` contains the source code used to generate the analyses, convergence diagnostics, tables, and figures reported in the manuscript.
 
-## Data
-
-The data used in the manuscript are available through the R package `STPoissonSS`.
-
-To install the package, use:
-
-```r
-install.packages("devtools")
-devtools::install_github("Projeto-CNPq-Clima/STPoissonSS", force = TRUE)
-library(STPoissonSS)
+`SupplementaryMaterial.pdf` provides additional details regarding the dataset, model specification, implementation, and reproducibility procedures.
